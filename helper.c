@@ -5,7 +5,7 @@
  * @b: variable to compute
  * Return: computed val
  */
-size_t max(int a, int b)
+size_t max(size_t a, size_t b)
 {
 	return ((a > b) ? a : b);
 }
