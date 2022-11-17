@@ -4,7 +4,6 @@
  * @node: pointer to a node to find a string
  * Return: pointer to the uncle
  */
-
 binary_tree_t *binary_tree_uncle(binary_tree_t *node)
 {
 	if (node == NULL || node->parent == NULL)
